@@ -1,5 +1,6 @@
 # Notifly
-Note: This project uses Python 3.0+
+Note: This project uses Python 3.0+.
+
 To begin adding upcoming rocket launches to your Google Calendar automatically through Notifly, follow these steps: 
 
 1. Travel to Google's Calendar API quickstart website: https://developers.google.com/calendar/quickstart/python
