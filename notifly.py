@@ -9,8 +9,8 @@ from bs4 import BeautifulSoup
 import requests
 from datetime import datetime
 
-# Enter your own Google Calendar API json credentials file below
-api_credentials_json = 'notiflycalendarcredentials.json'
+# Enter your own Google Calendar API json credentials file below (if you renamed it)
+api_credentials_json = 'credentials.json'
 
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = ['https://www.googleapis.com/auth/calendar']
