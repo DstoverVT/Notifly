@@ -21,7 +21,10 @@ https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-beautiful-soup
 6. Run main_gui.py and choose one of the dropdown options followed by clicking the corresponding button, which should open your browser for authentication
 7. Sign into your Google account, and click "Advanced" and then "go to <whatever the project name is (probably Quickstart)>"
 8. Allow permissions and close out of the tab once you get the message saying that you can close the window
-9. That's it! Notifly is now at your disposable to help you stay up to date with rocket launches forever
+9. That's it, Notifly is now at your disposable to help you stay up to date with rocket launches forever!
+
+GUI should look like this upon first startup of main_gui.py:  
+<img src="images/NotiflyGUI.png" width="100%">
 
 ## Functionality
 The GUI has two major functionalities: __adding__ events and __deleting__ rocket launch events.  
