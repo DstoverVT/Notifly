@@ -3,7 +3,7 @@ Note: This project uses Python 3.0+.
 To begin adding upcoming rocket launches to your Google Calendar automatically through Notifly, follow these steps:
 
 ## Setup Guide
-1. Travel to Google's Calendar API quickstart website:  
+1. Clone this repository and then travel to Google's Calendar API quickstart website:  
 https://developers.google.com/calendar/quickstart/python
 2. Follow steps 1 and 2 and save the *credentials.json* file in the same directory as the python scripts
 3. If your .json file is not named *credentials.json*, then change the *api_credentials_json* variable in notifly.py accordingly
@@ -32,7 +32,8 @@ GUI should look like this upon first startup of main_gui.py:
 <img src="images/NotiflyGUI.png" width="100%">
 
 ## Functionality
-The GUI has two major functionalities: __adding__ events and __deleting__ rocket launch events.  
+The GUI has two major functionalities: __adding__ events and __deleting__ rocket launch events.
+
 If this is your first time adding events, Notifly will create a new secondary calendar called "Rocket Launches by Notifly" in your Google Calendar account.
 
 __Adding:__ You can add upcoming rocket launch events for 3 different periods of time:
