@@ -13,7 +13,7 @@ https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-beautiful-soup
 5. Install the python Tkinter library using the command:
    
    ```
-   $ sudo apt-get python3-tk
+   $ sudo apt-get install python3-tk
    ```
    
    OR install according to their website:  
