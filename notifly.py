@@ -241,8 +241,8 @@ def main(current_month):
         events_updated = 0
 
         # Determine the first rocket launch that falls under the current month
-        start_index = 1
-        for grid in soup.find_all(class_='mdl-grid')[1:]:
+        start_index = 0
+        for grid in soup.find_all(class_='mdl-cell mdl-cell--6-col'):
             date_location = grid.find(
                 class_='mdl-card__supporting-text').get_text().split('\n')
             launch_date = date_location[2].strip()
@@ -251,7 +251,7 @@ def main(current_month):
                 break
             start_index += 1
 
-        for grid in soup.find_all(class_='mdl-grid')[start_index:]:
+        for grid in soup.find_all(class_='mdl-cell mdl-cell--6-col')[start_index:]:
 
             # Loop through each launch and check if date is current month
             # Pluck each rocket launch event title, date, and location for the launches
